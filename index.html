@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Mobile-interview : ">
 
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>Mobile-interview</title>
@@ -18,7 +19,7 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/yardclub/mobile-interview">View on GitHub</a>
 
-          <h1 id="project_title">Yard Club Mobile Interview Exercise</h1>
+          <h1 id="project_title">Yard Club Exercise</h1>
           <h2 id="project_tagline"></h2>
 
             <section id="downloads">
@@ -31,24 +32,86 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
 
-<p>Please implement the following screens:</p>
+<h3>Please implement the following screens:</h3>
 
-<h3>Screen 1:</h3>
-<img src="http://yardclub.github.io/mobile-interview/images/01-request-equipment.png" class="float-image">
+<div class="row">
+	<div class="col-sm-6 text-center">
+		<img src="http://yardclub.github.io/mobile-interview/images/01-request-equipment.png" class="img img-responsive">
+		<p>Main Screen.</p>
+	</div>
+	<div class="col-sm-6 text-center">
+		<img src="http://yardclub.github.io/mobile-interview/images/02-request-equipment.png" class="img img-responsive">
+		<p>Categories / subcategories screen.</p>
+	</div>
+</div>
 
-<p>Clicking on the Yard Club image will load the catalog.</p>
-<p>Data on this page will be loaded by data from the following endpoint <code>http://yardclub.github.io/mobile-interview/api/catalog.json</code></p>
-<p>After selecting a catalog, you can return subcategories by using the endpoint & id of the category selected <code>http://yardclub.github.io/mobile-interview/api/catalog/{{ID}}.json</code>, e.g.  <code>http://yardclub.github.io/mobile-interview/api/catalog/4.json</code></p>
+<div class="row">
+	<div class="col-sm-12">
+		<h4>Main Screen, categories & subcategories:</h4>
+		<p>Clicking on the Yard Club image will load the catalog.</p>
+		<p>Data on this page will be loaded from the following endpoint <code>http://yardclub.github.io/mobile-interview/api/catalog.json</code></p>
+		<p>After selecting a catalog, you can return subcategories by using the endpoint & id of the category selected</p> <code>http://yardclub.github.io/mobile-interview/api/catalog/{{ID}}.json</code>
+		<p>e.g. </p> 
+		<code>http://yardclub.github.io/mobile-interview/api/catalog/4.json</code>
+	</div>
+	<div class="col-sm-12">
+		<h4>Finally:</h4>
+		<p>after choosing both a category and subcategory, you can render the "results" endpoint however you'd like.</p>
+		<p>
+			The results endpoint can be found here: <code>http://yardclub.github.io/mobile-interview/api/results.json</code> and consists of an array of results with various attributes belonging to the equipment and an array of featured photos.
+		</p>
+		<pre>
+			<code>
+{
+    "display_name": "D8 Dozer",
+    "results": [
+        {
+            "id": 2985,
+            "name": "CAT D8N",
+            "description": "Oper. Wt. 83K lbs",
+            "daily_rate": "$1,525",
+            "weekly_rate": "$4,575",
+            "monthly_rate": "$13,700",
+            "operated_rates": ""
+        },
+        {
+            "id": 3126,
+            "name": "John Deere 1050",
+            "description": "Oper. Wt. 93K",
+            "daily_rate": "$1,675",
+            "weekly_rate": "$5,025",
+            "monthly_rate": "$15,100",
+            "operated_rates": "100/hr"
+        }
+    ],
+    "featured_photos": [
+        {
+            "url": "http://placekitten.com/320/160"
+        },
+        {
+            "url": "http://i.imgur.com/JYslfWq.jpg"
+        },
+        {
+            "url": "http://i.imgur.com/xOLhwwF.gif"
+        },
+        {
+            "url": "http://i.imgur.com/88c43pd.gif"
+        }
+    ]
+}
+			</code>
+		</pre>
+	</div>
+</div>
 
-<h3>Catalog / subcategories screen:</h3>
-<img src="http://yardclub.github.io/mobile-interview/images/02-request-equipment.png" class="float-image">
+<div class="text-center">
+<h3><strong>You can download all the assets on github <a href="https://github.com/yardclub/mobile-interview">here</a></strong></h3>
 
-<p>Finally, after clicking on a subcategory, you can render the results endpoint how ever you like. The results endpoint can be found here here: <code>http://yardclub.github.io/mobile-interview/api/results.json</code> and consists of an array of results with various attributes belonging to the equipment and an array of "featured photos"</p>
+</div>
+<h2>Submission</h2>
 
-<p>You can download all the necessary files on github <a href="https://github.com/yardclub/mobile-interview">here</a></p>
-
+<p>Send the completed code to <a mailto:"jobs@yardclub.com">jobs@yardclub.com</a></p>
 </section>
     </div>
 
@@ -59,6 +122,7 @@
     <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
   </footer>
 </div>
-
+		<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>
