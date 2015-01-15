@@ -1,0 +1,66 @@
+[
+    {
+        "id": 9,
+        "name": "Backhoes"
+    },
+    {
+        "id": 4,
+        "name": "Dirt Compactors"
+    },
+    {
+        "id": 5,
+        "name": "Dozers"
+    },
+    {
+        "id": 6,
+        "name": "Excavators"
+    },
+    {
+        "id": 13,
+        "name": "Motor Graders"
+    },
+    {
+        "id": 15,
+        "name": "Pavers"
+    },
+    {
+        "id": 19,
+        "name": "Reach Lifts"
+    },
+    {
+        "id": 1,
+        "name": "Rollers - AC Double Drum "
+    },
+    {
+        "id": 3,
+        "name": "Rollers (Dirt) - Pad Drum"
+    },
+    {
+        "id": 2,
+        "name": "Rollers (Dirt) - Smooth Drum"
+    },
+    {
+        "id": 14,
+        "name": "Scrapers"
+    },
+    {
+        "id": 8,
+        "name": "Skip Loaders"
+    },
+    {
+        "id": 23,
+        "name": "Specialized"
+    },
+    {
+        "id": 21,
+        "name": "Traffic Control"
+    },
+    {
+        "id": 20,
+        "name": "Trucks"
+    },
+    {
+        "id": 7,
+        "name": "Wheel Loaders"
+    }
+]
