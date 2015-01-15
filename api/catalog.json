@@ -16,18 +16,6 @@
         "name": "Excavators"
     },
     {
-        "id": 13,
-        "name": "Motor Graders"
-    },
-    {
-        "id": 15,
-        "name": "Pavers"
-    },
-    {
-        "id": 19,
-        "name": "Reach Lifts"
-    },
-    {
         "id": 1,
         "name": "Rollers - AC Double Drum "
     },
@@ -40,24 +28,8 @@
         "name": "Rollers (Dirt) - Smooth Drum"
     },
     {
-        "id": 14,
-        "name": "Scrapers"
-    },
-    {
         "id": 8,
         "name": "Skip Loaders"
-    },
-    {
-        "id": 23,
-        "name": "Specialized"
-    },
-    {
-        "id": 21,
-        "name": "Traffic Control"
-    },
-    {
-        "id": 20,
-        "name": "Trucks"
     },
     {
         "id": 7,
