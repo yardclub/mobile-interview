@@ -22,16 +22,13 @@
     ],
     "featured_photos": [
         {
-            "url": "http://placekitten.com/320/160"
+            "url": "https://i.imgur.com/xOLhwwF.gif"
         },
         {
-            "url": "http://i.imgur.com/JYslfWq.jpg"
+            "url": "https://i.imgur.com/88c43pd.gif"
         },
-        {
-            "url": "http://i.imgur.com/xOLhwwF.gif"
-        },
-        {
-            "url": "http://i.imgur.com/88c43pd.gif"
+	    {
+            "url": "https://i.imgur.com/JYslfWq.jpg"
         }
     ]
 }
